@@ -28,6 +28,6 @@ def string_methods():
     print(f"Paso: {frase[0:6:2]}") 
     print(f"Reverso: {frase[5::-1]}") 
 
-    print(f"Formato: {nombre.strip() + "sabe" + frase[0:6]}")
+    print(f"Formato: {nombre.strip() + " " + "sabe" + " " + frase[0:6]}")
 
     print(multilinea)
