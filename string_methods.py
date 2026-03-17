@@ -29,7 +29,7 @@ def string_methods():
     print(f"Paso: {palabra[::2]}")
     print(f"Reverso: {palabra[::-1]}")
     
-     print(f"Formato: {nombre.strip()} sabe {palabra}")
+    print(f"Formato: {nombre.strip() + ' '+'sabe' +' '+palabra}")
     
     print(multilinea)
 
